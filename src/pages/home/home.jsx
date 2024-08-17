@@ -11,7 +11,7 @@ function home() {
     <div>
       <Header />
       <ExploreMenu category={category} setCategory={setCategory} />
-      <FoodDisplay category={category} />
+      <FoodDisplay category={category} setCategory={setCategory} />
     </div>
   );
 }
