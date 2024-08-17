@@ -7,7 +7,7 @@ function navbar() {
 
   return (
     <div className="navbar">
-      <img src={assets.logo} alt="" className="logo" />
+      <img src={assets.banchi} alt="" className="logo" />
 
       <ul className="navbar-menu">
         <li
